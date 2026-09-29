@@ -5,13 +5,22 @@ import { Home } from '@/pages/Home';
 import { ArmoryShowcase } from '@/pages/ArmoryShowcase';
 import { CompetitionMode } from '@/pages/CompetitionMode';
 import { AbdulsStorePage } from '@/pages/AbdulsStorePage';
+import { PixelCraftEventPage } from '@/pages/PixelCraftEventPage';
 
 export const App: React.FC = () => {
   return (
     <ThemeProvider>
       <BrowserRouter>
         <Routes>
+          {/* Round 1 Prototype Route */}
           <Route path="/" element={<AbdulsStorePage />} />
+          
+          {/* Round 2 Event Website Routes */}
+          <Route path="/pixelcraft" element={<PixelCraftEventPage />} />
+          <Route path="/event" element={<PixelCraftEventPage />} />
+          <Route path="/round2" element={<PixelCraftEventPage />} />
+          
+          {/* Core Armory Tools */}
           <Route path="/armory" element={<ArmoryShowcase />} />
           <Route path="/competition" element={<CompetitionMode />} />
           <Route path="/home" element={<Home />} />
@@ -22,4 +31,3 @@ export const App: React.FC = () => {
 };
 
 export default App;
-

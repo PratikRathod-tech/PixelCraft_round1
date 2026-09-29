@@ -1,0 +1,19 @@
+{
+  "name": "Pixel Craft 2026 Event Website",
+  "round": "ROUND_2",
+  "theme": "From Brief to Build",
+  "tagline": "Where Creativity Meets Code",
+  "competitionYear": 2026,
+  "version": "v1.0",
+  "status": "COMPLETE",
+  "architecture": {
+    "framework": "React 18 + Vite + Tailwind CSS v4 + TypeScript",
+    "motion": "Framer Motion",
+    "threeD": "Three.js / React Three Fiber",
+    "themeSystem": "Dual Light & Dark Mode (Local Persistence)"
+  },
+  "routes": {
+    "isolatedRoute": "/pixelcraft",
+    "parentApp": "src/App.tsx"
+  }
+}
