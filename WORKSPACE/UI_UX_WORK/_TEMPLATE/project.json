@@ -1,0 +1,16 @@
+{
+  "projectId": "uiux-template-01",
+  "projectName": "UI/UX Project Template",
+  "type": "uiux",
+  "createdAt": "2026-09-28T20:48:39.510Z",
+  "updatedAt": "2026-09-28T20:48:39.510Z",
+  "status": "active",
+  "currentVersion": "v0.1",
+  "armoryVersion": "phase-14",
+  "deliverables": {
+    "wireframes": "pending",
+    "uiTokens": "pending",
+    "prototype": "pending",
+    "handoff": "pending"
+  }
+}

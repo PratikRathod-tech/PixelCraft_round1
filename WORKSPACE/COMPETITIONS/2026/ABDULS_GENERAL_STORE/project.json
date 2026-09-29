@@ -1,0 +1,37 @@
+{
+  "projectId": "comp-2026-abduls-general-store",
+  "projectName": "Abdul's General Store & Off-World Supply",
+  "competitionName": "Pixelcraft Competition 2026 — Round 1",
+  "type": "competition",
+  "createdAt": "2026-09-29T10:43:00.000Z",
+  "updatedAt": "2026-09-29T12:08:00.000Z",
+  "status": "PROTOTYPE_3D_ENHANCED",
+  "currentRound": 1,
+  "phase": "05",
+  "currentVersion": "v0.5",
+  "armoryVersion": "phase-14",
+  "cards": {
+    "businessCard": "ABDUL GENERAL STORE",
+    "themeCard": "ALIENS",
+    "wildCard": "ADD A SECRET FEATURE"
+  },
+  "round1": {
+    "status": "completed_verified",
+    "phase": "05_3d_enhancements_complete",
+    "version": "v0.5",
+    "submitted": false
+  },
+  "round2": {
+    "status": "pending_feedback",
+    "version": "v1.1",
+    "submitted": false
+  },
+  "metadata": {
+    "theme": "warm-kirana-to-cosmic-secret",
+    "primaryAssetId": "cyber-helmet-3d",
+    "heroLayout": "split",
+    "uxArchitectureSuite": "02_UX_ARCHITECTURE",
+    "implementationSuite": "03_IMPLEMENTATION",
+    "interactiveRoute": "/competition/abduls-store"
+  }
+}

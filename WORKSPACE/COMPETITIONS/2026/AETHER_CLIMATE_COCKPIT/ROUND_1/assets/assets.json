@@ -1,0 +1,82 @@
+{
+  "primaryAsset": {
+    "id": "cyber-helmet-3d",
+    "title": "Damaged Sci-Fi Helmet",
+    "name": "Damaged Sci-Fi Helmet",
+    "type": "model",
+    "category": "technology",
+    "src": "/armory/3d/technology/damaged_helmet.glb",
+    "path": "/armory/3d/technology/damaged_helmet.glb",
+    "format": "glb",
+    "fileSizeBytes": 3773916,
+    "sourceRepository": "KhronosGroup/glTF-Sample-Assets",
+    "sourceUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/DamagedHelmet",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "author": "thegallery",
+    "attributionRequired": true,
+    "tags": [
+      "sci-fi",
+      "helmet",
+      "cyberpunk",
+      "technology",
+      "3d",
+      "hero",
+      "security",
+      "gaming"
+    ],
+    "recommendedUse": "Hero section centerpiece for tech, gaming, or security briefs",
+    "description": "PBR textured damaged sci-fi cyber helmet with metallic weathering and emissive visor details.",
+    "semanticKeywords": [
+      "technology",
+      "cyber",
+      "security",
+      "gaming",
+      "future",
+      "sci-fi",
+      "armor",
+      "hardware"
+    ],
+    "visualRoles": [
+      "hero",
+      "card",
+      "decoration"
+    ],
+    "useCases": [
+      "technology website",
+      "gaming landing page",
+      "cybersecurity platform",
+      "AI hardware showcase"
+    ],
+    "mood": [
+      "futuristic",
+      "technical",
+      "gritty",
+      "premium"
+    ],
+    "style": [
+      "pbr",
+      "cyberpunk",
+      "detailed"
+    ],
+    "compatibleThemes": [
+      "cyberpunk-neon",
+      "midnight-obsidian",
+      "deep-cosmic"
+    ],
+    "compatibleLayouts": [
+      "hero",
+      "split",
+      "spatial"
+    ],
+    "competitionCategories": [
+      "technology",
+      "gaming",
+      "security",
+      "hardware"
+    ]
+  },
+  "vaultTotalModels": 25,
+  "normalization": "Automated 1.0 unit bounding box normalization with center pivot",
+  "license": "CC-BY-4.0"
+}

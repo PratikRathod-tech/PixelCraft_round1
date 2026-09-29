@@ -1,0 +1,390 @@
+{
+  "strategy": {
+    "theme": "neo-glass",
+    "heroLayout": "split",
+    "heroVisualRole": "hero",
+    "recommendedAssetIds": [
+      "cyber-helmet-3d",
+      "retro-boombox-3d",
+      "toy-car-3d",
+      "robot-expressive-3d"
+    ],
+    "primaryAssetId": "cyber-helmet-3d",
+    "background": "mesh",
+    "motionPreset": "reveal",
+    "sectionOrder": [
+      "hero",
+      "bento",
+      "map",
+      "timeline"
+    ],
+    "typographyScale": "balanced",
+    "spacingDensity": "comfortable",
+    "cardStyle": "glass",
+    "recommendedEffects": [
+      "shadow-glow-cyan",
+      "backdrop-blur-xl"
+    ]
+  },
+  "kit": {
+    "concept": "Aether Satellite Probe Constellation + GIS Emergency Telemetry Mesh + Sub-second Anomaly Early Warning Grid",
+    "characterDirection": "Aether Satellite Probe Constellation (technology)",
+    "primaryVisual": {
+      "id": "cyber-helmet-3d",
+      "title": "Damaged Sci-Fi Helmet",
+      "name": "Damaged Sci-Fi Helmet",
+      "type": "model",
+      "category": "technology",
+      "src": "/armory/3d/technology/damaged_helmet.glb",
+      "path": "/armory/3d/technology/damaged_helmet.glb",
+      "format": "glb",
+      "fileSizeBytes": 3773916,
+      "sourceRepository": "KhronosGroup/glTF-Sample-Assets",
+      "sourceUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/DamagedHelmet",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "thegallery",
+      "attributionRequired": true,
+      "tags": [
+        "sci-fi",
+        "helmet",
+        "cyberpunk",
+        "technology",
+        "3d",
+        "hero",
+        "security",
+        "gaming"
+      ],
+      "recommendedUse": "Hero section centerpiece for tech, gaming, or security briefs",
+      "description": "PBR textured damaged sci-fi cyber helmet with metallic weathering and emissive visor details.",
+      "semanticKeywords": [
+        "technology",
+        "cyber",
+        "security",
+        "gaming",
+        "future",
+        "sci-fi",
+        "armor",
+        "hardware"
+      ],
+      "visualRoles": [
+        "hero",
+        "card",
+        "decoration"
+      ],
+      "useCases": [
+        "technology website",
+        "gaming landing page",
+        "cybersecurity platform",
+        "AI hardware showcase"
+      ],
+      "mood": [
+        "futuristic",
+        "technical",
+        "gritty",
+        "premium"
+      ],
+      "style": [
+        "pbr",
+        "cyberpunk",
+        "detailed"
+      ],
+      "compatibleThemes": [
+        "cyberpunk-neon",
+        "midnight-obsidian",
+        "deep-cosmic"
+      ],
+      "compatibleLayouts": [
+        "hero",
+        "split",
+        "spatial"
+      ],
+      "competitionCategories": [
+        "technology",
+        "gaming",
+        "security",
+        "hardware"
+      ]
+    },
+    "supportingVisuals": [
+      {
+        "id": "retro-boombox-3d",
+        "title": "Retro Stereo Boombox",
+        "name": "Retro Stereo Boombox",
+        "type": "model",
+        "category": "technology",
+        "src": "/armory/3d/technology/retro_boombox.glb",
+        "path": "/armory/3d/technology/retro_boombox.glb",
+        "format": "glb",
+        "fileSizeBytes": 10614184,
+        "sourceRepository": "KhronosGroup/glTF-Sample-Assets",
+        "sourceUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/BoomBox",
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "author": "Microsoft",
+        "attributionRequired": true,
+        "tags": [
+          "audio",
+          "music",
+          "boombox",
+          "retro",
+          "technology",
+          "3d",
+          "sound",
+          "events"
+        ],
+        "recommendedUse": "Music streaming, audio equipment, or event promotion sites",
+        "description": "Detailed classic 80s boombox stereo speaker prop with cassettes and speakers.",
+        "semanticKeywords": [
+          "audio",
+          "music",
+          "sound",
+          "stereo",
+          "retro",
+          "events",
+          "cassette",
+          "radio"
+        ],
+        "visualRoles": [
+          "hero",
+          "card",
+          "decoration"
+        ],
+        "useCases": [
+          "music streaming service",
+          "audio hardware store",
+          "festival website",
+          "podcast landing page"
+        ],
+        "mood": [
+          "nostalgic",
+          "energetic",
+          "retro",
+          "vibrant"
+        ],
+        "style": [
+          "pbr",
+          "vintage",
+          "realistic"
+        ],
+        "compatibleThemes": [
+          "solar-flare",
+          "cyberpunk-neon",
+          "midnight-obsidian"
+        ],
+        "compatibleLayouts": [
+          "hero",
+          "split",
+          "grid"
+        ],
+        "competitionCategories": [
+          "entertainment",
+          "music",
+          "hardware",
+          "events"
+        ]
+      },
+      {
+        "id": "toy-car-3d",
+        "title": "Retro Toy Car",
+        "name": "Retro Toy Car",
+        "type": "model",
+        "category": "vehicles",
+        "src": "/armory/3d/vehicles/toy_car.glb",
+        "path": "/armory/3d/vehicles/toy_car.glb",
+        "format": "glb",
+        "fileSizeBytes": 5422412,
+        "sourceRepository": "KhronosGroup/glTF-Sample-Assets",
+        "sourceUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/ToyCar",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "author": "Khronos Group",
+        "attributionRequired": false,
+        "tags": [
+          "car",
+          "vehicle",
+          "toy",
+          "retro",
+          "automotive",
+          "3d",
+          "transport",
+          "delivery"
+        ],
+        "recommendedUse": "Automotive, delivery, or toy marketplace showcases",
+        "description": "Stylized retro coupe vehicle with metallic paint and transparent glass windows.",
+        "semanticKeywords": [
+          "car",
+          "automotive",
+          "vehicle",
+          "transport",
+          "delivery",
+          "mobility",
+          "drive",
+          "speed"
+        ],
+        "visualRoles": [
+          "hero",
+          "card",
+          "decoration"
+        ],
+        "useCases": [
+          "car rental platform",
+          "delivery app landing page",
+          "automotive marketplace",
+          "ride-share site"
+        ],
+        "mood": [
+          "playful",
+          "retro",
+          "sleek",
+          "active"
+        ],
+        "style": [
+          "pbr",
+          "vintage-modern"
+        ],
+        "compatibleThemes": [
+          "emerald-bio",
+          "solar-flare",
+          "midnight-obsidian"
+        ],
+        "compatibleLayouts": [
+          "hero",
+          "split",
+          "grid"
+        ],
+        "competitionCategories": [
+          "automotive",
+          "logistics",
+          "e-commerce",
+          "transport"
+        ]
+      },
+      {
+        "id": "robot-expressive-3d",
+        "title": "Expressive Companion Robot",
+        "name": "Expressive Companion Robot",
+        "type": "model",
+        "category": "characters",
+        "src": "/armory/3d/characters/robot_expressive.glb",
+        "path": "/armory/3d/characters/robot_expressive.glb",
+        "format": "glb",
+        "fileSizeBytes": 463988,
+        "sourceRepository": "mrdoob/three.js",
+        "sourceUrl": "https://github.com/mrdoob/three.js/tree/dev/examples/models/gltf/RobotExpressive",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "author": "Tom (Toxom)",
+        "attributionRequired": false,
+        "tags": [
+          "robot",
+          "ai",
+          "character",
+          "bot",
+          "avatar",
+          "3d",
+          "animated",
+          "assistant"
+        ],
+        "recommendedUse": "AI assistant, customer support bot, or tech landing pages",
+        "description": "Charming animated humanoid robot avatar with skeletal animations and expression poses.",
+        "semanticKeywords": [
+          "ai",
+          "robot",
+          "bot",
+          "assistant",
+          "automation",
+          "chat",
+          "intelligence",
+          "helper"
+        ],
+        "visualRoles": [
+          "hero",
+          "card",
+          "decoration"
+        ],
+        "useCases": [
+          "AI agent platform",
+          "customer support bot page",
+          "SaaS landing page",
+          "tech startup hero"
+        ],
+        "mood": [
+          "friendly",
+          "futuristic",
+          "approachable",
+          "smart"
+        ],
+        "style": [
+          "low-poly",
+          "animated",
+          "stylized"
+        ],
+        "compatibleThemes": [
+          "cyberpunk-neon",
+          "emerald-bio",
+          "deep-cosmic"
+        ],
+        "compatibleLayouts": [
+          "hero",
+          "split",
+          "spatial"
+        ],
+        "competitionCategories": [
+          "ai",
+          "technology",
+          "saas",
+          "robotics"
+        ]
+      }
+    ],
+    "theme": "futuristic",
+    "layout": "hero",
+    "motionPreset": "reveal",
+    "bgType": "grid",
+    "matchReasons": [
+      "Hero centerpiece ready"
+    ],
+    "generatedConfig": {
+      "id": "kit-1790658256484",
+      "concept": "Aether Satellite Probe Constellation + GIS Emergency Telemetry Mesh",
+      "title": "Aether Satellite Probe Constellation GIS Emergency Telemetry Mesh (Sub-second Anomaly Early Warning Grid)",
+      "theme": "futuristic",
+      "layout": {
+        "heroLayout": "hero"
+      },
+      "background": {
+        "type": "grid",
+        "opacity": 0.8
+      },
+      "hero": {
+        "badge": "SUB-SECOND ANOMALY EARLY WARNING GRID SPRINT KIT",
+        "title": "Aether Satellite Probe Constellation GIS Emergency Telemetry Mesh",
+        "subtitle": "Configured using Damaged Sci-Fi Helmet from Pixelcraft Armory.",
+        "cta": {
+          "primaryText": "Explore Features",
+          "secondaryText": "View Vault Kit"
+        },
+        "visual": {
+          "type": "3d",
+          "assetId": "cyber-helmet-3d",
+          "size": "large",
+          "animation": "reveal"
+        }
+      },
+      "sections": [
+        {
+          "id": "bento-features",
+          "type": "bento",
+          "title": "Key Capabilities & Core Modules",
+          "subtitle": "Powered by GIS Emergency Telemetry Mesh & Sub-second Anomaly Early Warning Grid primitives"
+        },
+        {
+          "id": "timeline-roadmap",
+          "type": "timeline",
+          "title": "Sprint Delivery Roadmap"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Aether Satellite Probe Constellation GIS Emergency Telemetry Mesh Platform",
+  "coreConcept": "Aether Satellite Probe Constellation + GIS Emergency Telemetry Mesh (Sub-second Anomaly Early Warning Grid)",
+  "visualDirection": "NEO-GLASS theme with SPLIT layout & 3D visual anchors.",
+  "keywords": [
+    "design",
+    "ultra",
+    "responsive",
+    "autonomous",
+    "satellite",
+    "telemetry",
+    "gis",
+    "emergency",
+    "cockpit",
+    "for",
+    "real",
+    "time"
+  ],
+  "requiredSections": [
+    "hero",
+    "map"
+  ],
+  "recommendedSections": [
+    "bento",
+    "timeline"
+  ],
+  "functionalRequirements": [
+    "Interactive Leaflet OpenStreetMap GIS canvas"
+  ],
+  "visualRequirements": [
+    "Normalized 3D GLB Centerpiece with Drei Orbit Controls",
+    "Bioluminescent glassmorphism with fresh natural tones"
+  ],
+  "interactionRequirements": [
+    "smooth-scroll",
+    "hover-lift"
+  ],
+  "assetRequirements": [
+    "GIS Map Tile Overlay"
+  ],
+  "mapRequired": true,
+  "threeDRecommended": true,
+  "animationLevel": "moderate",
+  "recommendedTheme": "neo-glass",
+  "recommendedHeroLayout": "split",
+  "recommendedBackground": "mesh",
+  "confidence": 0.95
+}

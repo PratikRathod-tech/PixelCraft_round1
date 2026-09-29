@@ -1,0 +1,28 @@
+{
+  "projectId": "comp-template-01",
+  "projectName": "Competition Project Template",
+  "competitionName": "Hackathon Name",
+  "type": "competition",
+  "createdAt": "2026-09-28T20:48:39.509Z",
+  "updatedAt": "2026-09-28T20:48:39.510Z",
+  "status": "active",
+  "currentRound": 1,
+  "currentVersion": "v0.1",
+  "armoryVersion": "phase-14",
+  "round1": {
+    "status": "in_progress",
+    "version": "v0.1",
+    "submitted": false
+  },
+  "round2": {
+    "status": "pending_feedback",
+    "version": "v1.1",
+    "submitted": false
+  },
+  "metadata": {
+    "theme": "futuristic",
+    "heroLayout": "spatial",
+    "primaryAssetId": "cyber-helmet-3d",
+    "auditScore": null
+  }
+}

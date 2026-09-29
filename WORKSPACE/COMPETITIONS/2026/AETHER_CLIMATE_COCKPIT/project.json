@@ -1,0 +1,30 @@
+{
+  "projectId": "comp-2026-aether-climate",
+  "projectName": "AETHER Climate Telemetry Cockpit",
+  "competitionName": "EarthTech Innovation World Cup 2026",
+  "type": "competition",
+  "createdAt": "2026-09-29T05:04:16.492Z",
+  "updatedAt": "2026-09-29T05:04:16.492Z",
+  "status": "active",
+  "currentRound": 1,
+  "currentVersion": "v1.0",
+  "armoryVersion": "phase-14",
+  "round1": {
+    "status": "submitted",
+    "version": "v1.0",
+    "submitted": true,
+    "submittedAt": "2026-09-29T05:04:16.492Z",
+    "auditScore": "100%"
+  },
+  "round2": {
+    "status": "pending_feedback",
+    "version": "v1.1",
+    "submitted": false
+  },
+  "metadata": {
+    "theme": "neo-glass",
+    "heroLayout": "split",
+    "primaryAssetId": "cyber-helmet-3d",
+    "auditScore": 100
+  }
+}

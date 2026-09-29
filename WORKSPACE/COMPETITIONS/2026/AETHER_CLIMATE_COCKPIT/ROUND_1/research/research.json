@@ -1,0 +1,40 @@
+{
+  "query": "Satellite telemetry GIS emergency cockpit climate monitoring",
+  "category": "climate_gis",
+  "facts": [
+    "Pixelcraft Armory contains 28 registered production 3D assets with zero missing geometry.",
+    "Theme Engine dynamically switches all CSS color tokens, mesh tints, and border gradients instantly.",
+    "VisualKitEngine pairs 3D models with harmonic color palettes and font styles automatically."
+  ],
+  "analysis": [
+    "Topic \"Satellite telemetry GIS emergency cockpit climate monitoring\" evaluates strongly on modern dark mode cyber aesthetics and 60 FPS Three.js rendering.",
+    "Judging scorecards penalize slow load times and unaligned mobile layouts heavily."
+  ],
+  "recommendations": [
+    "Anchor the hero section with a centerpiece 3D asset scaled to medium or large.",
+    "Include at least 1 interactive module (Leaflet GIS map or Bento Feature Grid).",
+    "Verify contrast ratios in high ambient light competition rooms."
+  ],
+  "uncertainties": [
+    "Exact competition projector calibration cannot be predicted; high-contrast themes recommended."
+  ],
+  "sources": [
+    {
+      "sourceType": "official",
+      "title": "Pixelcraft Armory Design Architecture v10.0",
+      "credibility": "verified"
+    },
+    {
+      "sourceType": "internal",
+      "title": "Armory 3D Asset Registry & Material Standards",
+      "credibility": "verified"
+    },
+    {
+      "sourceType": "web",
+      "title": "Modern UI/UX Competition Evaluation Guidelines",
+      "credibility": "official"
+    }
+  ],
+  "timestamp": "2026-09-29T05:04:16.480Z",
+  "executionTimeMs": 15
+}
