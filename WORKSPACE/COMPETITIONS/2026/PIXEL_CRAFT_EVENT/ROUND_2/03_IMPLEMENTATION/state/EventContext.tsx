@@ -49,13 +49,20 @@ export const EventProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   const [selectedGalleryItem, setSelectedGalleryItem] = useState<GalleryItem | null>(null);
   const [selectedCard, setSelectedCard] = useState<Round1Card | null>(null);
   const [selectedProcessStage, setSelectedProcessStage] = useState<ProcessStage | null>(PROCESS_PIPELINE[0]);
-  const [activeGalleryCategory, setActiveGalleryCategory] = useState<GalleryCategory>('ALL');
+  const [activeGalleryCategory, setActiveGalleryCategory] = useState<GalleryCategory>('All');
   const [isNavDrawerOpen, setIsNavDrawerOpen] = useState<boolean>(false);
   const [activeSection, setActiveSection] = useState<string>('home');
 
   useEffect(() => {
     try {
       localStorage.setItem('pixelcraft_theme', theme);
+      if (theme === 'dark') {
+        document.documentElement.classList.add('dark');
+        document.documentElement.classList.remove('light');
+      } else {
+        document.documentElement.classList.remove('dark');
+        document.documentElement.classList.add('light');
+      }
     } catch {
       // Ignore
     }

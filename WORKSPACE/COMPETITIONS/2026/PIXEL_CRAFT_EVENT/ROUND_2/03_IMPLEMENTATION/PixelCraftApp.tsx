@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { EventProvider } from './state/EventContext';
 import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
 import { AboutSection } from './components/AboutSection';
 import { TimelineSection } from './components/TimelineSection';
 import { Round1Showcase } from './components/Round1Showcase';
+import { Round1CardArchive } from './components/Round1CardArchive';
 import { Round2Showcase } from './components/Round2Showcase';
+import { WinningWebsitesSection } from './components/WinningWebsitesSection';
+import { RequirementsSection } from './components/RequirementsSection';
+import { HostingSection } from './components/HostingSection';
+import { SponsorsSection } from './components/SponsorsSection';
 import { TeamsSection } from './components/TeamsSection';
 import { GallerySection } from './components/GallerySection';
 import { ResultsSection } from './components/ResultsSection';
@@ -14,19 +19,32 @@ import { Footer } from './components/Footer';
 import { TimelineDetailModal } from './components/TimelineDetailModal';
 import { TeamDetailModal } from './components/TeamDetailModal';
 import { LightboxModal } from './components/LightboxModal';
+import { VoxelLoadingIntro } from './components/VoxelLoadingIntro';
 
 const PixelCraftRootView: React.FC = () => {
+  const [showLoading, setShowLoading] = useState(true);
+
   return (
-    <div className="min-h-screen flex flex-col selection:bg-cyan-500 selection:text-slate-950">
+    <div className="min-h-screen flex flex-col selection:bg-cyan-500 selection:text-slate-950 font-sans">
+      {/* Voxel Assembly Intro Animation */}
+      {showLoading && (
+        <VoxelLoadingIntro onComplete={() => setShowLoading(false)} />
+      )}
+
       <Navbar />
       <main className="flex-1">
         <HeroSection />
         <AboutSection />
         <TimelineSection />
         <Round1Showcase />
-        <Round2Showcase />
+        <Round1CardArchive />
         <TeamsSection />
+        <WinningWebsitesSection />
+        <Round2Showcase />
+        <RequirementsSection />
+        <HostingSection />
         <GallerySection />
+        <SponsorsSection />
         <ResultsSection />
         <ContactSection />
       </main>

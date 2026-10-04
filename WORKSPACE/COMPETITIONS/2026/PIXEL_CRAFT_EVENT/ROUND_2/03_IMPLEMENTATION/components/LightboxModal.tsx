@@ -27,7 +27,7 @@ export const LightboxModal: React.FC = () => {
         <div className="p-4 border-b flex items-center justify-between bg-slate-50 border-slate-200 dark:bg-[#070D18] dark:border-slate-800">
           <div className="flex items-center gap-2">
             <span className="px-2.5 py-0.5 rounded-full text-xs font-mono font-bold bg-cyan-500/20 text-cyan-600 dark:text-cyan-400 border border-cyan-500/30">
-              {item.categoryLabel}
+              {item.category}
             </span>
             <span className="text-xs font-mono text-slate-500">
               {currentIndex + 1} / {GALLERY_ITEMS.length}
@@ -43,31 +43,30 @@ export const LightboxModal: React.FC = () => {
         </div>
 
         {/* Media Canvas */}
-        <div className={`h-64 sm:h-80 w-full bg-gradient-to-br ${item.placeholderBg} flex flex-col items-center justify-center relative p-6 text-center text-white`}>
-          <div className="w-16 h-16 rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center mb-3 text-2xl shadow-xl">
-            📸
-          </div>
-          <span className="text-xs font-mono uppercase tracking-widest text-cyan-300 font-bold mb-1">
-            [OFFICIAL EVENT PHOTOGRAPHY VAULT]
-          </span>
-          <h3 className="text-lg sm:text-2xl font-extrabold max-w-md">
-            {item.title}
-          </h3>
-          <span className="text-xs text-white/80 font-mono mt-1">
-            {item.subtitle}
-          </span>
+        <div className="h-64 sm:h-80 w-full bg-slate-950 flex flex-col items-center justify-center relative p-6 text-center text-white overflow-hidden">
+          {item.imageUrl ? (
+            <img
+              src={item.imageUrl}
+              alt={item.title}
+              className="absolute inset-0 w-full h-full object-contain object-center"
+            />
+          ) : (
+            <div className="w-16 h-16 rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center mb-3 text-2xl shadow-xl">
+              📸
+            </div>
+          )}
 
           {/* Left/Right Navigation */}
           <button
             onClick={handlePrev}
-            className="absolute left-4 p-2 rounded-full bg-black/40 hover:bg-black/70 text-white backdrop-blur-sm transition-all"
+            className="absolute left-4 p-2 rounded-full bg-black/60 hover:bg-black/90 text-white backdrop-blur-sm transition-all z-20"
             title="Previous"
           >
             <ArrowLeft className="w-4 h-4" />
           </button>
           <button
             onClick={handleNext}
-            className="absolute right-4 p-2 rounded-full bg-black/40 hover:bg-black/70 text-white backdrop-blur-sm transition-all"
+            className="absolute right-4 p-2 rounded-full bg-black/60 hover:bg-black/90 text-white backdrop-blur-sm transition-all z-20"
             title="Next"
           >
             <ArrowRight className="w-4 h-4" />
@@ -75,29 +74,34 @@ export const LightboxModal: React.FC = () => {
         </div>
 
         {/* Details Content */}
-        <div className="p-6 space-y-4">
+        <div className="p-6 space-y-3">
+          <h3 className="text-lg sm:text-xl font-extrabold font-mono">
+            {item.title}
+          </h3>
           <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
-            {item.description}
+            {item.caption}
           </p>
 
-          <div className="flex flex-wrap items-center gap-2 pt-2 border-t border-slate-200 dark:border-slate-800">
-            <Tag className="w-3.5 h-3.5 text-slate-400" />
-            {item.tags.map((t, i) => (
-              <span
-                key={i}
-                className="px-2.5 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-300 border border-slate-200 dark:border-slate-700"
-              >
-                #{t}
-              </span>
-            ))}
-          </div>
+          {item.tags && item.tags.length > 0 && (
+            <div className="flex flex-wrap items-center gap-2 pt-2 border-t border-slate-200 dark:border-slate-800">
+              <Tag className="w-3.5 h-3.5 text-slate-400" />
+              {item.tags.map((t: string, i: number) => (
+                <span
+                  key={i}
+                  className="px-2.5 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-300 border border-slate-200 dark:border-slate-700"
+                >
+                  #{t}
+                </span>
+              ))}
+            </div>
+          )}
         </div>
 
         {/* Footer */}
         <div className="p-4 border-t flex justify-end bg-slate-50 border-slate-200 dark:bg-[#070D18] dark:border-slate-800">
           <button
             onClick={() => setSelectedGalleryItem(null)}
-            className="px-4 py-2 rounded-xl text-xs font-bold bg-cyan-500 text-slate-950 hover:bg-cyan-400 transition-colors shadow-md"
+            className="px-4 py-2 rounded-xl text-xs font-bold bg-cyan-500 text-slate-950 hover:bg-cyan-400 transition-colors shadow-md font-mono"
           >
             Close Lightbox
           </button>

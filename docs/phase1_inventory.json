@@ -1,0 +1,270 @@
+{
+  "metadata": {
+    "timestamp": "2026-10-03 16:16:47 +0530",
+    "phase": "PHASE 1 - REPOSITORY ACQUISITION & SOURCE FORENSICS",
+    "status": "COMPLETED & VERIFIED",
+    "workspace_root": "C:\\Users\\ALL AtoZ\\OneDrive\\Desktop\\MINIPROJECT_1",
+    "miniproject_root": "C:\\Users\\ALL AtoZ\\OneDrive\\Desktop\\MINIPROJECT_1\\Mini_project_1"
+  },
+  "repositories": [
+    {
+      "name": "Mini_project_1",
+      "path": "C:\\Users\\ALL AtoZ\\OneDrive\\Desktop\\MINIPROJECT_1\\Mini_project_1",
+      "remote": "https://github.com/PratikRathod-tech/Mini_project_1",
+      "branch": "main",
+      "head": "3572aa5734182a60f842b5bbb5606121563b61dd",
+      "status": "clean"
+    },
+    {
+      "name": "Pixel",
+      "path": "C:\\Users\\ALL AtoZ\\OneDrive\\Desktop\\MINIPROJECT_1\\Mini_project_1\\Pixel",
+      "remote": "https://github.com/PratikRathod-tech/PixelCraft_round1.git",
+      "branch": "main",
+      "head": "b765a2bb923068da3c61f0f0efc3cacd6be47739",
+      "status": "clean"
+    },
+    {
+      "name": "bgrl_reference_code",
+      "path": "C:\\Users\\ALL AtoZ\\OneDrive\\Desktop\\MINIPROJECT_1\\Mini_project_1\\AI_ML_Mule_Account_Research\\11_References\\BGRL_Reference\\bgrl_reference_code",
+      "remote": "https://github.com/nerdslab/bgrl.git",
+      "head": "60f9f19ad0598f9163ad70ebbde3e7297760901e"
+    }
+  ],
+  "datasets": [
+    {
+      "name": "transactions_small_1p.csv",
+      "format": "csv",
+      "size_mb": 13.64,
+      "rows": 157722,
+      "columns": 11,
+      "classification": "RAW",
+      "sha256": "a392768e8b8a6a65e6862d3de4f1d8e7f7ec59093531ea43a26298c7978da046",
+      "frozen": true
+    },
+    {
+      "name": "transactions_small_clean_1p.csv",
+      "format": "csv",
+      "size_mb": 26.77,
+      "rows": 157722,
+      "columns": 13,
+      "classification": "PROCESSED",
+      "sha256": "1db6a5592b1a4b91f031f3ab0ea7b7fbec1bd878d198156b87542d389bf57f02",
+      "frozen": true
+    },
+    {
+      "name": "3.2_mule_metrics.csv",
+      "format": "csv",
+      "size_mb": 10.5,
+      "rows": 150619,
+      "columns": 15,
+      "classification": "DERIVED",
+      "sha256": "cb77503360ccfc73294b79f0040ccd4d42e74ae913a0d46a29f95ecb6fd55910",
+      "frozen": true
+    },
+    {
+      "name": "3.3_candidate_chains.csv",
+      "format": "csv",
+      "size_mb": 1.73,
+      "rows": 22374,
+      "columns": 7,
+      "classification": "DERIVED",
+      "sha256": "9cfaaaea60bfe933878fc4fdafd4ebbbdb684dcbb1355b030d550fcefae4e066",
+      "frozen": true
+    },
+    {
+      "name": "consolidated_dmlrank_dataset.parquet",
+      "format": "parquet",
+      "size_mb": 9.46,
+      "rows": 157722,
+      "columns": 65,
+      "classification": "MODEL-READY",
+      "sha256": "fbca57513c13ba597cb31e22501777a04e43c33dd3ad0db768ba8bb56668079b",
+      "frozen": true
+    },
+    {
+      "name": "phase3_pairs.parquet",
+      "format": "parquet",
+      "size_mb": 8.54,
+      "rows": 100000,
+      "columns": 114,
+      "classification": "MODEL-READY",
+      "sha256": "4dbca34aac0a939ed306019a257a7a97595da2cd3678945aed88d0bf3b81c81f",
+      "frozen": true
+    },
+    {
+      "name": "phase6_ground_truth.parquet",
+      "format": "parquet",
+      "size_mb": 0.09,
+      "rows": 13578,
+      "columns": 6,
+      "classification": "PROCESSED",
+      "sha256": "88b66715fa64ed55ad229719e2cef1d0da08f5763ef180a78be8f16ae62f409e",
+      "frozen": true
+    },
+    {
+      "name": "exp05_hybrid_extension.csv",
+      "format": "csv",
+      "size_mb": 0.69,
+      "rows": 13578,
+      "columns": 5,
+      "classification": "RESULT",
+      "sha256": "f8474e56b8f28517fb41ef0116fd0991204499d15d54076acf4815bd087ff4f5",
+      "frozen": true
+    }
+  ],
+  "models": [
+    {
+      "name": "phase4_similarity_best_model.pt",
+      "path": "DMLRank/phase4_model/phase4_similarity_best_model.pt",
+      "size_mb": 0.15,
+      "architecture": "Siamese MLP (48 -> 32 -> 16 + Wp)",
+      "sha256": "e8ee3ceb83779227e81ebd819a918fd35cccc105ee78596f986efa909df22846",
+      "frozen": true
+    },
+    {
+      "name": "phase4_autoencoder_best_model.pt",
+      "path": "DMLRank/phase4_model/phase4_autoencoder_best_model.pt",
+      "size_mb": 0.03,
+      "architecture": "Autoencoder (48 -> 16 -> 48)",
+      "sha256": "4e31785530f452613965273af1a1f4bcbf8879212166938bc6b3a997cec2e46a",
+      "frozen": true
+    },
+    {
+      "name": "bgrl_amlpublic_checkpoint.pt",
+      "path": "AI_ML_Mule_Account_Research/08_Results/Metrics/MuleTrace/3.7_training/bgrl_amlpublic_checkpoint.pt",
+      "size_mb": 0.36,
+      "architecture": "BGRL Self-Supervised GCN (128-dim embeddings)",
+      "sha256": "9226e725631de21fdd895ff562bb38772776ae388a4798349381f136c9e24ab9",
+      "frozen": true
+    },
+    {
+      "name": "muletrace_graph.pkl",
+      "path": "AI_ML_Mule_Account_Research/03_Datasets/04_Model_Specific/AMLPublic/MuleTrace/muletrace_graph.pkl",
+      "size_mb": 18.44,
+      "architecture": "NetworkX MultiDiGraph (150,619 nodes, 157,722 edges)",
+      "sha256": "bc9edb0b98ebaed3b7e555cc417f5336c5b726259763cc07ba5a133eaf68ae54",
+      "frozen": true
+    }
+  ],
+  "modules": [
+    {
+      "id": "MOD-03.1",
+      "name": "Graph Builder",
+      "action": "REUSE"
+    },
+    {
+      "id": "MOD-03.2",
+      "name": "Topological Metrics",
+      "action": "REUSE"
+    },
+    {
+      "id": "MOD-03.3",
+      "name": "Bidirectional Tracer",
+      "action": "REUSE"
+    },
+    {
+      "id": "MOD-03.4",
+      "name": "Subgraph Extractor",
+      "action": "REUSE"
+    },
+    {
+      "id": "MOD-03.5",
+      "name": "Feature Normalizer",
+      "action": "REUSE"
+    },
+    {
+      "id": "MOD-03.6",
+      "name": "BGRL GCN Encoder",
+      "action": "REUSE"
+    },
+    {
+      "id": "DML-F48",
+      "name": "48 Behavioral Feature Generator",
+      "action": "REUSE"
+    },
+    {
+      "id": "DML-SIAM",
+      "name": "Siamese Ranking Network",
+      "action": "REUSE"
+    },
+    {
+      "id": "DML-EXP05",
+      "name": "Hybrid Fusion Model",
+      "action": "REUSE"
+    },
+    {
+      "id": "PIXEL-UI",
+      "name": "Pixel React / Three.js Frontend",
+      "action": "REUSE"
+    },
+    {
+      "id": "PIXEL-API",
+      "name": "Pixel Express Backend Server",
+      "action": "ADAPT"
+    },
+    {
+      "id": "PIXEL-LEGACY",
+      "name": "PixelCraft Creative Sandbox",
+      "action": "ARCHIVE"
+    }
+  ],
+  "frozen_artifacts": [
+    "transactions_small_1p.csv",
+    "transactions_small_clean_1p.csv",
+    "3.2_mule_metrics.csv",
+    "3.3_candidate_chains.csv",
+    "consolidated_dmlrank_dataset.parquet",
+    "phase3_pairs.parquet",
+    "phase4_similarity_best_model.pt",
+    "bgrl_amlpublic_checkpoint.pt",
+    "muletrace_graph.pkl",
+    "exp01_dmlrank_baseline.csv",
+    "exp05_hybrid_extension.csv"
+  ],
+  "dependencies": {
+    "python": "3.14.0a3",
+    "pytorch": "2.6.0+cpu",
+    "networkx": "3.4.2",
+    "pandas": "2.2.3",
+    "scikit_learn": "1.6.1",
+    "node": "v20+",
+    "react": "18.3.1",
+    "three": "0.173.0",
+    "r3f": "8.17.14",
+    "tailwind": "4.0.6",
+    "express": "5.2.1"
+  },
+  "gaps": [
+    {
+      "id": "GAP-01",
+      "name": "Web API Bridge",
+      "severity": "HIGH",
+      "target": "Phase 2 & 3"
+    },
+    {
+      "id": "GAP-02",
+      "name": "Interactive Query Engine",
+      "severity": "HIGH",
+      "target": "Phase 2 & 3"
+    },
+    {
+      "id": "GAP-03",
+      "name": "3D Force-Directed Graph",
+      "severity": "MEDIUM",
+      "target": "Phase 2 & 4"
+    },
+    {
+      "id": "GAP-04",
+      "name": "AML Investigation Console",
+      "severity": "MEDIUM",
+      "target": "Phase 2 & 4"
+    },
+    {
+      "id": "GAP-05",
+      "name": "Path Portability",
+      "severity": "LOW",
+      "target": "Phase 2 & 3"
+    }
+  ],
+  "unknowns": []
+}

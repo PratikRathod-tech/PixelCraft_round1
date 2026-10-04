@@ -59,3 +59,12 @@ apiRouter.post('/ai/research', AIController.research);
 
 // Audit
 apiRouter.post('/audit/run', AuditController.run);
+
+// ChainRank AML Investigation Endpoints
+import { chainrankRouter } from './chainrankRoutes';
+apiRouter.use('/chainrank', chainrankRouter);
+
+// Internal Engineering Vault Endpoints (Server-Side Auth Protected)
+import { internalRouter } from './internalRoutes';
+apiRouter.use('/internal', internalRouter);
+

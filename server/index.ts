@@ -42,9 +42,9 @@ export async function startServer(port: number = config.port) {
   });
 }
 
-// Auto-start if executed directly
-if (typeof require !== 'undefined' && require.main === module) {
-  startServer();
-}
+// Auto-start server
+startServer().catch((err) => {
+  console.error('[Server Startup Error]', err);
+});
 
 export default app;

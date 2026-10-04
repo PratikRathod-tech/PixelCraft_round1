@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { R3FCanvas } from '@/components/3d/R3FCanvas';
 import { PixelModel } from '@/components/3d/PixelModel';
+import { Link } from 'react-router-dom';
 import { ArrowRight, Sparkles, Code2, Cpu } from 'lucide-react';
 import { EVENT_INFO } from '../data/event';
 
@@ -98,12 +99,19 @@ export const HeroSection: React.FC = () => {
               transition={{ duration: 0.4, delay: 0.3 }}
               className="flex flex-wrap items-center gap-3 pt-2"
             >
+              <Link
+                to="/register"
+                className="px-6 py-3 rounded-xl font-black text-sm font-mono uppercase tracking-wider bg-gradient-to-r from-emerald-400 via-teal-400 to-cyan-500 text-slate-950 shadow-xl shadow-emerald-500/30 hover:scale-105 active:scale-95 transition-all flex items-center gap-2"
+              >
+                <span>REGISTER NOW</span>
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+
               <a
                 href="#timeline"
-                className="px-6 py-3 rounded-xl font-bold text-sm bg-gradient-to-r from-cyan-500 to-indigo-600 text-white shadow-lg shadow-cyan-500/25 hover:shadow-cyan-500/40 hover:scale-[1.02] active:scale-98 transition-all flex items-center gap-2"
+                className="px-5 py-3 rounded-xl font-bold text-sm border border-slate-300 text-slate-700 bg-white hover:bg-slate-100 dark:border-slate-700 dark:text-slate-200 dark:bg-slate-900/70 dark:hover:bg-slate-800 transition-all flex items-center gap-1.5"
               >
-                <span>Explore the Journey</span>
-                <ArrowRight className="w-4 h-4" />
+                <span>View Journey</span>
               </a>
 
               <a
